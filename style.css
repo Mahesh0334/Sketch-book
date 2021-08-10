@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,15 +6,13 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  
 }
 
 body {
-
   /* background-image: url(https://c4.wallpaperflare.com/wallpaper/138/79/756/colorful-digital-art-artwork-wallpaper-preview.jpg);  */
-  
+
   background-image: url(https://thumbs.dreamstime.com/z/vector-seamless-pattern-abstract-hand-drawn-waves-colorful-doodle-background-design-fabric-textile-print-web-backgrounds-94043424.jpg);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,10 +25,11 @@ body {
 }
 
 canvas {
-  margin-top:10px;
+  /* width: 80vw;
+  height: 81.5vh; */
+  margin-top: 1vh;
   background-color: white;
   border: 5px solid rgb(3, 214, 151);
-
   border-radius: 15px;
 }
 
@@ -40,14 +39,15 @@ canvas {
   display: flex;
   width: 1000px;
   height: 100px;
-  
+
   border-radius: 10px;
   padding: 1rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.toolbox > * {  /* selects everything where paretn is toolbax except last child*/
+.toolbox > * {
+  /* selects everything where paretn is toolbax except last child*/
   background-color: white;
   box-shadow: 20px;
   border-radius: 7px;
@@ -63,11 +63,10 @@ canvas {
   cursor: pointer;
 }
 
-.toolbox > *:last-child { /* Selects toolbox last child :- clear */
+.toolbox > *:last-child {
+  /* Selects toolbox last child :- clear */
   margin-left: auto;
 }
-
-
 
 .btn_dec {
   background-color: lightblue;
@@ -75,7 +74,7 @@ canvas {
   color: black;
   margin-left: 40px;
   border: 1px solid #ccc;
-  font-weight:bolder;
+  font-weight: bolder;
   text-align: center;
 
   font-size: 18px;
@@ -86,7 +85,7 @@ canvas {
 }
 
 .btn_inc {
-  background-color:lightblue;
+  background-color: lightblue;
   border-radius: 7px;
   color: black;
   border: 1px solid #ccc;
@@ -127,13 +126,12 @@ canvas {
   box-shadow: 3px 3px 8px gray;
 }
 
-
 .btn_clear {
   background-color: lightgreen;
   border-radius: 7px;
   color: rebeccapurple;
   border: 1px solid;
-  font-weight:bolder;
+  font-weight: bolder;
   text-align: center;
   border: 1px solid #ccc;
   box-shadow: 3px 3px 8px gray;
